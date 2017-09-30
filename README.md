@@ -30,9 +30,9 @@ Copy and paste this into your Linux host machine
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
      
-      <remote fetch="git://github.com/FEDEVEL" name="fedevel"/>
+      <remote fetch="git://github.com/pablo-aledo" name="pabloaledo"/>
      
-      <project remote="fedevel" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
+      <project remote="pabloaledo" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
         <copyfile src="openrex-setup.sh" dest="openrex-setup.sh"/>
       </project>
     </manifest>
@@ -84,5 +84,3 @@ To test your uBoot on SD card, plug in the card which you have just created into
  
     mw.l 0x020d8040 0x2840; mw.l 0x020d8044 0x10000000; reset
  
-# Updating OpenRex
-TO
